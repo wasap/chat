@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Чат	</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+ <script src="js.js"></script> 
+</head>
+<body> 
+ 	<div id="chatScreen"></div>
+<div id="onlineUsers"></div>
+    <textarea id="input" onfocus="onFocus();" onkeyup="sendOnEnter();"></textarea>
+<div id="selector">добавь файлы</div>
+<input type="file" id="file" multiple onchange="fileСount();"></input>
+
+    <div id="send" onclick="sendInput();">send</div>
+
+</body>
+</html>
